@@ -28,3 +28,16 @@ main img {
   margin: 15px;
   float: left;
 }
+main article {
+  width: 450px;
+  /* height should be 370 - button height:*/
+  height: 325px; 
+  float: left;
+  margin: 15px;
+  overflow: scroll;
+}
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+}
