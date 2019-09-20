@@ -21,24 +21,24 @@ nav {
   margin: 35px auto;
 }
 nav a {
-  margin: 60px;
+  margin: 35px;
   font-family: 'Squada One', cursive;
   font-size: 1.5em;
+  text-decoration: none;
+  color: black;
 }
 main {
   width: 990px;
   margin: 0 auto;
 }
-main img {
-  margin: 15px;
+main img, main article {
   float: left;
+  margin: 15px;
 }
 main article {
   width: 450px;
-  /* height should be 370 - button height:*/
+  /* height should be 370 - #button height:*/
   height: 325px; 
-  float: left;
-  margin: 15px;
   overflow: scroll;
 }
 #button {
@@ -49,6 +49,7 @@ main article {
   float: left;
   margin-left: 15px;
   transition: 0.35s;
+  border-radius: 5px;
 }
 #button:hover {
   color: red;
