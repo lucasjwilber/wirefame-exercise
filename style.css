@@ -18,7 +18,12 @@ section, nav {
   float: left;
 }
 nav {
-  margin: 10px auto;
+  margin: 35px auto;
+}
+nav a {
+  margin: 60px;
+  font-family: 'Squada One', cursive;
+  font-size: 1.5em;
 }
 main {
   width: 990px;
