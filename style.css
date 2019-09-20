@@ -40,6 +40,7 @@ main article {
   /* height should be 370 - #button height:*/
   height: 325px; 
   overflow: scroll;
+  overflow-x: hidden;
 }
 #button {
   width: 180px;
